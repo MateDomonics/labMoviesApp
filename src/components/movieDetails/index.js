@@ -10,16 +10,16 @@ import Typography from "@mui/material/Typography";
 
 
 const root = {
-    display: "flex",
-    justifyContent: "center",
-    flexWrap: "wrap",
-    listStyle: "none",
-    padding: 1.5,
-    margin: 0,
+  display: "flex",
+  justifyContent: "center",
+  flexWrap: "wrap",
+  listStyle: "none",
+  padding: 1.5,
+  margin: 0,
 };
 const chip = { margin: 0.5 };
 
-const MovieDetails = ( props) => {
+const MovieDetails = (props) => {
   const movie = props.movie
 
   return (
@@ -32,8 +32,8 @@ const MovieDetails = ( props) => {
         {movie.overview}
       </Typography>
 
-      <Paper 
-        component="ul" 
+      <Paper
+        component="ul"
         sx={root}
       >
         <li>
@@ -57,8 +57,8 @@ const MovieDetails = ( props) => {
         />
         <Chip label={`Released: ${movie.release_date}`} />
       </Paper>
-      <Paper 
-        component="ul" 
+      <Paper
+        component="ul"
         sx={root}
       >
         <li>
@@ -74,15 +74,15 @@ const MovieDetails = ( props) => {
         color="secondary"
         variant="extended"
         sx={{
-            position: "fixed",
-            bottom: 2,
-            right: 2
+          position: "fixed",
+          bottom: 2,
+          right: 2
         }}
       >
         <NavigationIcon />
         Reviews
       </Fab>
-      </>
+    </>
   );
 };
-export default MovieDetails ;
+export default MovieDetails;

@@ -11,27 +11,27 @@ import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import img from '../../images/pexels-dziana-hasanbekava-5480827.jpg'
 
-const formControl = 
-  {
-    margin: 1,
-    minWidth: 220,
-    backgroundColor: "rgb(255, 255, 255)"
-  };
+const formControl =
+{
+  margin: 1,
+  minWidth: 220,
+  backgroundColor: "rgb(255, 255, 255)"
+};
 
 export default function FilterMoviesCard(props) {
 
   const genres = [
-    {id: 1, name: "Animation"},
-    {id: 2, name: "Comedy"},
-    {id: 3, name: "Thriller"}
+    { id: 1, name: "Animation" },
+    { id: 2, name: "Comedy" },
+    { id: 3, name: "Thriller" }
   ]
 
   return (
-    <Card 
+    <Card
       sx={{
         maxWidth: 345,
         backgroundColor: "rgb(204, 204, 0)"
-      }} 
+      }}
       variant="outlined">
       <CardContent>
         <Typography variant="h5" component="h1">

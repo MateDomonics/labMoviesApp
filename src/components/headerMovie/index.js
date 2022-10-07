@@ -10,16 +10,16 @@ const MovieHeader = (props) => {
   const movie = props.movie;
 
   return (
-    <Paper 
-        component="div" 
-        sx={{
-            display: "flex",
-            justifyContent: "space-around",
-            flexWrap: "wrap",
-            padding: 1.5,
-            margin: 0,
-        }}
-      >
+    <Paper
+      component="div"
+      sx={{
+        display: "flex",
+        justifyContent: "space-around",
+        flexWrap: "wrap",
+        padding: 1.5,
+        margin: 0,
+      }}
+    >
       <IconButton aria-label="go back">
         <ArrowBackIcon color="primary" fontSize="large" />
       </IconButton>
