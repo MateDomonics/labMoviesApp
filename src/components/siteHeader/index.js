@@ -39,8 +39,6 @@ const SiteHeader = ({ history }) => {
         setAnchorEl(event.currentTarget);
     };
 
-    const Offset = styled('div')(({ theme }) => theme.mixins.toolbar);
-
     return (
         <>
             <AppBar position="fixed" color="secondary">
