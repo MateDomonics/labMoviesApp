@@ -11,8 +11,12 @@ Created the new API Request for Similar Movies.
 Used Movie Details page as a base to create Similar Movies Page
 
 - Creating the TV Series page.
-Used Home Page as a base to create tvSeriesPage
+Used Home Page as a template to create tvSeriesPage
 Created the new API Request for TV Series.
 Using templateMovieListPage as a template, created templateTVListPage.
 Using movieList as a template, created tvList.
 Using movieCard as a template, created tvCard.
+Using moviesContext as a template, created tvContext.
+Using headerMovie as a template, created tvHeader.
+Using addToFavourites as a template, created addToTVFavourites.
+Update routes in the Site Header and the topmost index.js file.
