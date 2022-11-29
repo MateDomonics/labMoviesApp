@@ -78,7 +78,7 @@ const MovieDetails = ({ movie }) => {  // Don't miss this!
         sx={root}
       >
         <li>
-          <Link to={``}>
+          <Link to={`/movies/${movie.id}/similar`}>
             <Button variant="outlined" size="medium" color="primary">
               Similar Movies...
             </Button>
