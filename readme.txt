@@ -20,3 +20,12 @@ Using moviesContext as a template, created tvContext.
 Using headerMovie as a template, created tvHeader.
 Using addToFavourites as a template, created addToTVFavourites.
 Update routes in the Site Header and the topmost index.js file.
+
+- Creating the similar TV Series page.
+Using similarMoviesPage as a template, created similarTVPage
+Created the new API request for similar TV Series.
+Update routes in the topmost index.js file.
+
+- Creating the TV series details page.
+Using templateMoviesPage as a template, created templateTVPage
+Update routes in the topmost index.js file.
