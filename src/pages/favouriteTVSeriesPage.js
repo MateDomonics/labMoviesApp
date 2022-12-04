@@ -7,7 +7,7 @@ import Spinner from '../components/spinner';
 import RemoveFromFavourites from "../components/cardIcons/removeFromFavourites";
 
 const FavouriteTVSeriesPage = () => {
-  const {favourites: seriesIds } = useContext(TVContext);
+  const { favourites: seriesIds } = useContext(TVContext);
 
   // Create an array of queries and run in parallel.
   const favouriteSeriesQueries = useQueries(
