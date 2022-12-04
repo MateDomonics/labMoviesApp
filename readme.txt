@@ -29,3 +29,7 @@ Update routes in the topmost index.js file.
 - Creating the TV series details page.
 Using templateMoviesPage as a template, created templateTVPage
 Update routes in the topmost index.js file.
+
+- Creating the TV Series favourties page.
+Using favouriteMoviesPage as a template, created favouriteTVSeriesPage.
+Update routes in the topmost index.js file and Site Header.
