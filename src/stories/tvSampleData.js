@@ -12,14 +12,14 @@ export default {
         40
     ],
     first_air_date: "2008-09-24",
-    genres: {
+    genres: [{
         id: 35,
         name: "Comedy"
-    },
-    genre_ids: {
+    }],
+    genre_ids: [{
         id: 35,
         name: "Comedy"
-    },
+    }],
     homepage: "https://chainsawman.dog/",
     in_production: true,
     id: 114410,

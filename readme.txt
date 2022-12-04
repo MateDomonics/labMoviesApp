@@ -33,3 +33,7 @@ Update routes in the topmost index.js file.
 - Creating the TV Series favourties page.
 Using favouriteMoviesPage as a template, created favouriteTVSeriesPage.
 Update routes in the topmost index.js file and Site Header.
+
+- Adding Storybook support
+Using the relevant page as a template, I created tvCard, tvDetails, tvHeader, tvList and movieReviews stories.
+Also added tvSampleData for the tv stories.
