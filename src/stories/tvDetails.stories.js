@@ -13,7 +13,6 @@ export default {
   ],
 };
 
-//SampleTV.genres.map((e) => (console.log(e)))
 export const Basic = () => <TVDetails series={SampleTV} />;
 
 Basic.storyName = "Default";
