@@ -17,6 +17,7 @@ Name: Máté Domonics (20093156)
 + Similar TV Series - Similar to Similar Movies Page.
 + Favourite Movies - Name changed to make it easier to differentiate
 + Favourite TV Series - When a TV Series is favourited, it is stored here and can be viewed.
++ TV Series Reviews - View a full review in detail.
 
 ### New Features.
 
@@ -26,6 +27,7 @@ Name: Máté Domonics (20093156)
 + TV Series with support for favouriting
 + Similar TV Series
 + Storybook Support
++ Viewing TV Reviews
 
 ## Setup requirements.
 
@@ -41,6 +43,7 @@ Name: Máté Domonics (20093156)
 + /tv/{tv_id} - TV Series Details page
 + /tv/{tv_id}/images - Populating the poster images for each TV Series
 + /tv/{tv_id}/similar - Similar to Similar Movies above
++ /tv/{tv_id}/reviews - Getting the reviews for each TV Series.
 
 ## App Design.
 
@@ -75,6 +78,14 @@ Name: Máté Domonics (20093156)
 
 >Shows the TV Series Details Page. Contains information about the TV Series, along with the "Similar TV Series..." button, similar to the Movie Details page.
 
+![](./images/TVSeriesDetailsReview.png)
+
+>Shows the list of available reviews for the selected TV Series, along with a button to view the full review.
+
+![](./images/TVSeriesReviewPage.png)
+
+>Shows the selected review in full.
+
 ![](./images/SimilarTVSeriesPage.png)
 
 >Shows the Similar TV Series page. The implementation is the same as with the Similar Movies Page, except this is done for TV series.
@@ -97,6 +108,7 @@ Name: Máté Domonics (20093156)
 + /tv/:id - TV Details page.
 + /tv/:id/similar - List of Similar TV Series.
 + /tv/favourites - List of favourited TV Series.
++ /tv/reviews/:id - Show the specific review for the selected movie.
 
 ## Independent learning (If relevant).
 

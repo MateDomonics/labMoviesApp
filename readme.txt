@@ -37,3 +37,8 @@ Update routes in the topmost index.js file and Site Header.
 - Adding Storybook support
 Using the relevant page as a template, I created tvCard, tvDetails, tvHeader, tvList and movieReviews stories.
 Also added tvSampleData for the tv stories.
+
+- Creating the TV Series Reviews page.
+Using movieReviewPage as a template, created tvReviewPage.
+Using movieReviews as a template, created tvReviews.
+Update routes in the topmost index.js file.
